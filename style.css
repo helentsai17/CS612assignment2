@@ -11,8 +11,8 @@ header {
   padding: 30px;
   text-align: center;
   font-size: 35px;
- 
-  background-image: url('https://images.unsplash.com/photo-1575282342463-dc8b06c133dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2818&q=80');
+  background-image: url("nyc.jpeg") ;
+  /* background-image: url('https://images.unsplash.com/photo-1575282342463-dc8b06c133dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2818&q=80'); */
   background-repeat:no-repeat;
   background-position:center; 
   height: 350px; 
@@ -29,15 +29,29 @@ height: auto;
 nav {
   float: left;
   width: 20%;
-  height: 500px; 
+  height: 550px; 
   background: #68b0ab;
   padding: 20px;
 }
 
-/* Style the list inside the menu */
+
 nav ul {
   list-style-type: none;
   padding: 0;
+}
+nav ul li{
+  padding: 10px;
+}
+
+aside ul{
+  list-style-type: none;
+
+}
+aside ul li{
+  padding: 10px;
+}
+aside ul li a{
+  text-decoration: none;
 }
 
 main {
@@ -45,7 +59,7 @@ main {
   padding: 20px;
   width: 60%;
   background-color: #ecf4f3;
-  height: 500px;
+  height: 550px;
 }
 
 aside {
@@ -53,17 +67,17 @@ float: left;
   padding: 20px;
   width: 20%;
   background-color: #68b0ab;
-  height: 500px;
+  height: 550px;
 }
 
-/* Clear floats after the columns */
+
 section:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Style the footer */
+
 footer {
   background-color: #777;
   padding: 10px;
